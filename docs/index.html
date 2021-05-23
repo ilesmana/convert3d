@@ -4,9 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <link href="icon.png" rel="shortcut icon" type="image/png">
+
+    <!-- Primary Meta Tags -->
+    <title>Convert 3D - Drag & drop converter for your 3D object</title>
+    <meta name="title" content="Convert 3D - Drag & drop converter for your 3D object">
+    <meta name="description" content="Desktop application to convert & compress your 3D object based on FBX2glTF and glTF Pipeline">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ilesmana.github.io/convert3d/">
+    <meta property="og:title" content="Convert 3D - Drag & drop converter for your 3D object">
+    <meta property="og:description" content="Desktop application to convert & compress your 3D object based on FBX2glTF and glTF Pipeline">
+    <meta property="og:image" content="https://ilesmana.github.io/convert3d/app.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ilesmana.github.io/convert3d/">
+    <meta property="twitter:title" content="Convert 3D - Drag & drop converter for your 3D object">
+    <meta property="twitter:description" content="Desktop application to convert & compress your 3D object based on FBX2glTF and glTF Pipeline">
+    <meta property="twitter:image" content="https://ilesmana.github.io/convert3d/app.jpg">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #141519;
+            color: white;
+            text-align: center;
+            font-family: 'Overpass', sans-serif;
+        }
+        header {
+            margin: 60px auto 40px;
+        }
+        .video {
+            max-width: 800px;
+            border-radius: 20px 20px 0 0;
+            overflow: hidden;
+        }
+        .video video {
+            width: 100%;
+        }
+        h1,h2,h3,h4 {
+            font-weight: bold;
+        }
+        .text-gray {
+            color: rgba(206,211,224,1)
+        }
+        a.button {
+            background-color: #3a76f2;
+            color: white;
+            border-radius: 30px;
+            padding: 10px;
+            outline: none;
+            display: block;
+            text-decoration: none;
+            max-width: 200px;
+            margin: 20px auto 0;
+            font-size: .9rem;
+        }
+        a.button:hover {
+            color: white;
+        }
+        ul {
+            padding: 0;
+        }
+        ul li {
+            display: block;
+        }
+        .text-small {
+            font-size: .8rem;
+        }
+        footer {
+            margin-top: 80px;
+        }
+        footer .copy {
+            font-size: .7rem;
+        }
+        a, a:hover, a:active {
+            color: #f80000;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1 class="text-gray">Convert 3D</h1>
+            <p class="text-gray">An open-source 3d converter built with web technology.</p>
+            <a href="https://www.dropbox.com/s/446rt0cx2q9kpdq/Convert3D%20-%20beta.zip?dl=1" class="button">Download for MacOS</a>
+        </div>
+    </header>
+    <section>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="video">
+                <video autoplay loop muted src="./convert3d-low.mp4"></video>
+            </div>
+        </div>
+        <div class="container mt-4 text-small">
+            <p>Based On</p>
+            <ul>
+                <li>https://github.com/facebookincubator/FBX2glTF</li>
+                <li>https://github.com/CesiumGS/gltf-pipeline</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p class="copy">Made with 
+            <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 24 24" width="16px" fill="#f80000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            by <a target="_blank" href="https://ilesmana.com">ilesmana</a></p>
+    </footer>
 </body>
 </html>
